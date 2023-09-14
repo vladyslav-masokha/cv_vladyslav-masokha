@@ -1,0 +1,168 @@
+/* Copyright 2023, Vladyslav Masokha */
+
+/* Reset styles */
+* {
+    box-sizing: border-box;
+
+    &:not(html) {
+        all: unset;
+        display: revert;
+    }
+
+    &::before,
+    &::after {
+        box-sizing: border-box;
+    }
+}
+
+iframe,
+canvas,
+img,
+svg,
+video {
+    all: unset;
+    display: revert;
+}
+
+audio:not(svg),
+symbol:not(svg) {
+    * {
+        all: unset;
+        display: revert;
+    }
+}
+
+a,
+button {
+    cursor: revert;
+    background-color: transparent;
+}
+
+ol,
+ul,
+li,
+menu {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+textarea,
+meter {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+:where(pre) {
+    all: revert;
+}
+
+:where([hidden]) {
+    display: none;
+}
+
+:where([contenteditable]) {
+    &:not([contenteditable='false']) {
+        -moz-user-modify: read-write;
+        -webkit-user-modify: read-write;
+        overflow-wrap: break-word;
+    }
+}
+
+:where([draggable='true']) {
+    -webkit-user-drag: element;
+}
+
+::placeholder,
+::marker {
+    color: unset;
+}
+
+/* Additional reset styles */
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+pre,
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+abbr[title] {
+    text-decoration: underline;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+    bottom: -0.25em;
+}
+
+[type='button'],
+[type='reset'],
+[type='submit'] {
+    &::-moz-focus-inner {
+        border-style: none;
+        padding: 0;
+    }
+    &:-moz-focusring {
+        outline: 1px dotted ButtonText;
+    }
+}
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+[type='number'] {
+    &::-webkit-inner-spin-button,
+    &::-webkit-outer-spin-button {
+        height: auto;
+    }
+}
+
+[type='search'] {
+    &::-webkit-search-decoration {
+        -webkit-appearance: none;
+    }
+}
+
+/* Hidden elements */
+details,
+summary,
+template,
+[hidden] {
+    display: none;
+}

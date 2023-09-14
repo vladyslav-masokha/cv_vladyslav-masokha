@@ -1,0 +1,38 @@
+[
+	{
+		"fullName": "Vladyslav Masokha",
+		"city": "Brovary, Ukraine",
+		"phone": "+380635040209",
+		"email": "vladyslavmasokha2006@gmail.com",
+		"githubURL": "https://github.com/vladyslav-masokha",
+		"telegramName": "@vll_kmx",
+		"telegramURL": "https://t.me/vll_kmx",
+		"linkedIn": "https://www.linkedin.com/in/vladyslav-masokha-0a605a290/",
+		"personalImage": "./img/personalPhoto.jpg"
+	},
+	{
+		"objectives": "Looking for a full-time job as a Junior Front End Developer.",
+		"summary": "I have non-commercial experience in creating website.",
+		"projURL": [
+			"https://github.com/vladyslav-masokha/JavaScript-documentation",
+			"https://github.com/vladyslav-masokha/Polish-vocabulary"
+		],
+		"skills": ["HTML, CSS", "JavaScript", "Sass", "React", "Github", "C++ (basic)"]
+	},
+	{
+		"education": [
+			"2012 - 2023, Brovary Lyceum 7.",
+			"2023 - 2027, State University of Information and Communication Technologies"
+		],
+		"itCourses": [
+			"2022, 'Front End Pro' course at Hillel IT-school",
+			"2018-2021, 'Java' and 'Web 2.0' courses at RoboCode school"
+		],
+		"certificatesURL": [
+			"https://certificate.ithillel.ua/view/47449417",
+			"https://github.com/vladyslav-masokha/Certificates"
+		],
+		"softSkills": ["Fast learner", "Time management"],
+		"additionalInfo": "English - Pre-intermediate"
+	}
+]

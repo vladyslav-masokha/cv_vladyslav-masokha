@@ -1,0 +1,49 @@
+.cvContacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid silver;
+  padding: 0 0 15px 0;
+}
+
+.cvContactsData {
+  .cvFullName {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--lightBlue);
+  }
+
+  span {
+    font-size: 16px;
+    color: var(--subTitle);
+  }
+
+  h3 {
+    font-style: italic;
+    font-weight: 500;
+    margin: 15px 0 0;
+  }
+
+  .cvInfo {
+    margin: 10px 0 0;
+
+    p {margin: 5px 0 0;}
+  }
+}
+
+.cvContactsImage {
+  display: none;
+
+  img {
+    max-width: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cvContacts {
+    .cvContactsImage {
+      display: block;
+    }
+  }
+}

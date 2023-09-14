@@ -1,0 +1,34 @@
+.cvEducation {
+	margin: 15px 0 0 0;
+
+	p,
+	div {
+		margin: 5px 0 0 0;
+	}
+
+	ul {
+		li {
+			margin: 2px 0 0 0;
+		}
+	}
+
+	.certificates {
+		ul {
+			margin: 10px 0;
+
+			li {
+				color: var(--subTitle);
+			}
+		}
+	}
+
+	.softSkills {
+		ul {
+			margin: 0 0 0 25px;
+
+			li {
+				list-style: square;
+			}
+		}
+	}
+}
